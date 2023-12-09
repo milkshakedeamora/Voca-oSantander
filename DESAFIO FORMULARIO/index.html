@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .central-section {
+            background-color: black;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .form-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 75%;
+        }
+
+        h1 {
+            color: blue;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label {
+            margin-bottom: 8px;
+            display: block;
+            text-align: left;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+
+
+        fieldset {
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <title>fORMULARIO</title>
+</head>
+
+<body>
+
+    <section class="central-section">
+        <h1>PREENCHA NOSSO FORMULÁRIO ABAIXO E AGUARDE NOSSO CONTATO</h1>
+        <div class="form-section">
+            <h2>Estágio Social Vocação</h2>
+            <p>Contratando jovens do Programa de estagio Social da Vocação sua empresa estará ajudando a promover a
+                melhoria da qualidade de vida dos adolescentes e jovens em situação de vulnerabilidade socioeconômica,
+                através do estágio social.</p>
+            <form>
+                <fieldset>
+
+                    <label><input type="text" name="nome" placeholder="Nome * " required></label>
+                    <label><input type="text" name="empresa" placeholder="Empresa *" required></label>
+
+                    <label><input type="tel" name="telefone" placeholder="Telefone *" required></label>
+                    <label> <input type="email" name="email" placeholder="E-mail *" required></label>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
